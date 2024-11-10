@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Gothic&family
+    =Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,
+    100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0
+    ,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display
+    =swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <Div class ="caixa-video">
+        <video src="./videos/coffe.mp4" loop muted autoplay></video>
+        <div class="mascara"></div>
+    </Div>
+
+    <header class="header">
+        <section>
+            <a href="#">
+                <img src="./img/logo.png" alt="logo-cafeteria">
+            </a>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Home</a>
+                <a href="#"onclick="mostrarModal()">Endereço</a>
+            </nav>
+        </section>
+    </header>
+    
+    <section class="caixa-principal">
+        <div>
+            <h3>code com  o melhor cafe da regiao</h3>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta eius 
+            libero ipsam, odio vel nulla voluptas deserunt aspernatur hic, adipisci 
+            accusantium ex ducimus delectus beatae distinctio dignissimos suscipit! Porro, deleniti?</P>
+            <a class="botao-link">pegue o seu agora</a>        
+        </div>
+    </section>
+    
+    <section class="caixa-sobre">
+        <h2 class="titulo"><span>Sobre</span> Nos</h2>
+        <div class="sobre-container">
+            <div class="sobre-imagem">
+                <img src="./img/about-img.jpeg">
+            </div>
+
+            <div class="sobre-texto">
+                <h3>O que Faz Especial</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro obcaecati, 
+                    non similique explicabo iure eum libero? Facilis eos esse, animi soluta, 
+                    cum voluptates quos pariatur earum in asperiores excepturi nemo!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus
+                     quasi expedita molestiae quidem recusandae dolorem aspernatur facilis 
+                     atque iusto, libero ducimus, consequuntur asperiores tenetur neque! Voluptas
+                      accusamus voluptatibus a quo!</p>
+
+                <a class="botao-link"> Saiba Mais</a>
+            </div>
+
+        </div>
+    </section>
+    <div class="modal">
+        <h3 class="titulo"><span>nosso </span>Endereço</h3> 
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!
+        1m8!1m3!1d126418.2018706715!2d-34.934217!3d-8.0433112!3m2!1i1024!2i768
+        !4f13.1!3m3!1m2!1s0x7ab196f94e5408b%3A0xe5800ef782bde3a6!2sRecife%2C%20
+        PE!5e0!3m2!1spt-BR!2sbr!4v1731181945893!5m2!1spt-BR!2sbr" width="600" height="450" 
+        style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </div>
+    
+    <div class="mascara-modal" onclick="esconderModal()"></div>
+   
+    <script src="./scripts.js"></script>
+    
+    
+</body>
+
+</html>
